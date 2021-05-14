@@ -1,0 +1,53 @@
+@import '../../../res/vars.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.background {
+	height: 100vh;
+	background: url('../../../res/images/colorful-bg.png') no-repeat center;
+	background-size: cover;
+}
+
+div.welcome-text h1 {
+	font-size: 7.5rem;
+	text-align: center;
+	color: var(--color-gray);
+	padding-top: 75px;
+}
+
+.red-orange-text {
+	color: var(--color-red-orange);
+}
+
+.purple-text {
+	color: var(--color-purple);
+}
+
+.orange-text {
+	color: var(--color-orange);
+}
+
+.flex-container {
+	display: flex;
+	padding: 10rem 5rem;
+	justify-content: space-between;
+}
+
+.box {
+	font-size: 1.5rem;
+	width: 351px;
+	height: 138px;
+	text-align: center;
+}
+
+.box h3 {
+	padding: 1rem;
+}
+
+.box h4 {
+	text-align: justify;
+}
