@@ -7,7 +7,7 @@ import { Portfolio } from './components/screens/portfolio/Portfolio.jsx';
 export const App = () => {
 	return (
 		<div className='container'>
-			<HomeAfter></HomeAfter>
+			<Portfolio></Portfolio>
 		</div>
 	);
 };

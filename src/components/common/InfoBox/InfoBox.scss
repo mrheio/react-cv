@@ -1,10 +1,21 @@
 .InfoBox {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	justify-content: center;
 	background: #282828;
 	text-align: center;
-	height: 100%;
+	margin: 0 5rem;
+	padding: 2.4rem 1.2rem;
+	transition: 0.3s;
+}
+
+.InfoBox:hover {
+	background: #242424;
 }
 
 .InfoBox__image {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
+	cursor: pointer;
 }
