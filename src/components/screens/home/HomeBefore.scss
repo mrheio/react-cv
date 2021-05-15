@@ -1,53 +1,46 @@
 @import '../../../res/vars.scss';
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.background {
+.HomeBefore {
 	height: 100vh;
 	background: url('../../../res/images/colorful-bg.png') no-repeat center;
 	background-size: cover;
 }
 
-div.welcome-text h1 {
+.HomeBefore__welcome-text {
 	font-size: 7.5rem;
 	text-align: center;
 	color: var(--color-gray);
 	padding-top: 75px;
 }
 
-.red-orange-text {
+.HomeBefore__welcome-text--red-orange-text {
 	color: var(--color-red-orange);
 }
 
-.purple-text {
+.HomeBefore__welcome-text--purple-text {
 	color: var(--color-purple);
 }
 
-.orange-text {
+.HomeBefore__welcome-text--orange-text {
 	color: var(--color-orange);
 }
 
-.flex-container {
+.HomeBefore__flex-container {
 	display: flex;
-	padding: 10rem 5rem;
+	padding: 10rem 2.5rem;
 	justify-content: space-between;
 }
 
-.box {
+.HomeBefore__flex-container-box {
 	font-size: 1.5rem;
-	width: 351px;
-	height: 138px;
+	width: 300px;
 	text-align: center;
 }
 
-.box h3 {
+.HomeBefore__flex-container-box h3 {
 	padding: 1rem;
 }
 
-.box h4 {
+.HomeBefore__flex-container-box h4 {
 	text-align: justify;
 }

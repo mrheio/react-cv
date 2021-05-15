@@ -1,0 +1,60 @@
+body {
+	cursor: default;
+}
+
+.HomeAfter {
+	padding: 1.5rem;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background: #181818;
+	overflow: auto;
+}
+
+.HomeAfter__text {
+	color: #f4f4f4;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.HomeAfter__flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1200px;
+	height: 800px;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.HomeAfter__flex-container-image {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.HomeAfter__flex-container-item {
+	display: flex;
+	flex-direction: column;
+	gap: 1.1rem;
+}
+
+.HomeAfter__flex-container-item div:nth-child(2) {
+	margin-left: -2rem;
+}
+
+.HomeAfter__bottom-arrow {
+	color: #f4f4f4;
+	font-weight: bold;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.HomeAfter__bottom-arrow span {
+	font-size: 1.5rem;
+}
