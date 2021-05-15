@@ -3,7 +3,7 @@ import profilePic from '../../../res/images/profile-pic.png';
 import './HomeAfter.scss';
 import { TextRectangle } from '../../common/TextRectangle/TextRectangle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfinity, faLongArrowAltDown } from '@fortawesome/free-solid-svg-icons';
+import { faInfinity } from '@fortawesome/free-solid-svg-icons';
 
 export const HomeAfter = () => {
 	return (
@@ -27,13 +27,8 @@ export const HomeAfter = () => {
 					<TextRectangle>
 						Income: - <FontAwesomeIcon icon={faInfinity} />
 					</TextRectangle>
+					<TextRectangle>Unemployed</TextRectangle>
 				</div>
-			</div>
-			<div className='HomeAfter__bottom-arrow'>
-				Life's work <br />
-				<span>
-					<FontAwesomeIcon icon={faLongArrowAltDown} />
-				</span>
 			</div>
 		</div>
 	);

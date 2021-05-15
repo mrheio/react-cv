@@ -12,19 +12,22 @@ export const Portfolio = () => {
 				link='https://github.com/DrgOv/MedsProject'
 				src={meds}
 				title={'Meds'}
-				text={'JavaFX project with local storage in JSON format'}
+				about={'Desktop App for online medical advice'}
+				technologies={'JavaFX + local storage in JSON format'}
 			></InfoBox>
 			<InfoBox
 				link='https://github.com/StanDarius24/PDSS-WebSite-Angular-Firebase'
 				src={ieftinache}
 				title={'Ieftinache'}
-				text={'Angular project using Firebase as backend'}
+				about={'E-commerce website'}
+				technologies={'Angular + Firebase'}
 			></InfoBox>
 			<InfoBox
 				link='https://github.com/DrgOv/ez-colet'
 				src={ezcolet}
 				title={'EZcolet'}
-				text={'Android App developed using Kotlin + Firebase'}
+				about={'Delivery Management Android App'}
+				technologies={'Kotlin + Firebase'}
 			></InfoBox>
 		</div>
 	);
