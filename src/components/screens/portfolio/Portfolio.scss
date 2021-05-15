@@ -1,0 +1,11 @@
+.Portfolio {
+	display: flex;
+	height: 100%;
+	justify-content: space-evenly;
+	align-content: center;
+	border: red 1px solid;
+}
+
+.Portfolio > * {
+	width: 100%;
+}

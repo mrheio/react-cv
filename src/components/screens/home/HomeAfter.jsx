@@ -1,11 +1,9 @@
 import React from 'react';
 import profilePic from '../../../res/images/profile-pic.png';
 import './HomeAfter.scss';
-import { TextRectangle } from '../../common/TextRectangle';
+import { TextRectangle } from '../../common/TextRectangle/TextRectangle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfinity, faLongArrowAltDown } from '@fortawesome/free-solid-svg-icons';
-import GlitchSquiggly from 'react-glitch-effect/core/GlitchSquiggly';
-import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 
 export const HomeAfter = () => {
 	return (

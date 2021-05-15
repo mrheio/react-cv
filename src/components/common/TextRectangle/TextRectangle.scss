@@ -1,0 +1,25 @@
+.TextRectangle {
+	display: inline-block;
+	font-size: 1.7rem;
+	font-weight: bold;
+	width: 400px;
+	height: 50px;
+	padding-left: 1.2rem;
+	line-height: 50px;
+}
+
+.TextRectangle--leftSideTriangle {
+	clip-path: polygon(10% 0, 100% 0, 100% 50%, 100% 100%, 10% 100%, 0% 50%);
+	padding-left: 2.5rem;
+	width: 500px;
+}
+
+.TextRectangle--light {
+	background: #f2f2f2;
+	color: #000;
+}
+
+.TextRectangle--dark {
+	background: #000;
+	color: #f2f2f2;
+}
