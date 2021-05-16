@@ -6,7 +6,7 @@ import { ProgressBar } from 'react-bootstrap';
 export const LabeledProgressBar = (props) => {
 	return (
 		<div className='LabeledProgressBar'>
-			<h3>{props.label}</h3>
+			<h5 className='LabeledProgressBar__label'>{props.label}</h5>
 			<ProgressBar variant={props.type} now={props.value}></ProgressBar>
 		</div>
 	);

@@ -7,7 +7,7 @@ import ezcolet from '../../../res/images/ezcolet.svg';
 
 export const Portfolio = () => {
 	return (
-		<div className='Portfolio'>
+		<div className='Portfolio padded-container'>
 			<InfoBox
 				link='https://github.com/DrgOv/MedsProject'
 				src={meds}

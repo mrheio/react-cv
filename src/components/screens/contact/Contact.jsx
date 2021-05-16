@@ -25,8 +25,8 @@ const designSkills = [new Skill('Illustrator', 45), new Skill('PhotoShop', 40)];
 
 const Skills = (props) => {
 	return (
-		<div>
-			<h2>{props.category}</h2>
+		<div className='Skill'>
+			<h3 className='Skill__name'>{props.category}</h3>
 			{props.skills.map((skill) => {
 				const { name, value } = skill;
 				return <LabeledProgressBar label={name} value={value} />;
@@ -37,13 +37,12 @@ const Skills = (props) => {
 
 export const Contact = () => {
 	return (
-		<div className='Contact'>
+		<div className='Contact padded-container'>
 			<div className='Contact__skill-levels'>
 				<h1>Skills</h1>
 				<Skills category='Programming' skills={programmingSkills} />
 				<Skills category='Graphic Design' skills={designSkills} />
 			</div>
-			<hr />
 			<div className='Contact__info'>
 				<div className='Contact__icon'>
 					<a className='Contact__icon-link' href='https://github.com/DrgOv' target='__blank'>

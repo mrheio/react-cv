@@ -1,43 +1,32 @@
-body {
-	cursor: default;
-}
-
 .HomeAfter {
-	padding: 1.5rem;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	gap: 0.3vh;
 }
 
-.HomeAfter__text {
+.HomeAfter__welcome-container {
 	text-align: center;
-	font-size: 2rem;
-	font-weight: bold;
-	margin: 1rem;
+	font-family: Hacked;
 }
 
-.HomeAfter__flex-container {
+.HomeAfter__info-container {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
-	width: 1200px;
-	height: 800px;
-	gap: 1rem;
+	gap: 3vh;
 }
 
-.HomeAfter__flex-container-image {
-	width: 400px;
-	height: 400px;
+.HomeAfter__image {
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
 }
 
-.HomeAfter__flex-container-item {
+.HomeAfter__data-container {
 	display: flex;
 	flex-direction: column;
-	gap: 1.2rem;
-}
-
-.HomeAfter__flex-container-item div:nth-child(2) {
-	margin-left: -2rem;
+	gap: 1vh;
 }

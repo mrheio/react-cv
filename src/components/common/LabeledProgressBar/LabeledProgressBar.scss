@@ -1,11 +1,11 @@
-.LabeledProgressBar {
-	margin: 1rem;
-}
-
 .progress {
 	background: #383838;
 }
 
 .progress-bar {
 	background-color: #f4f4f4;
+}
+
+.LabeledProgressBar__label {
+	margin: 0.1rem 0;
 }

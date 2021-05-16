@@ -1,45 +1,37 @@
-.Contact {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.Skill__name {
+	margin: 0.4rem 0;
 }
 
 .Contact > * {
-	width: 100%;
+	height: 100vh;
 }
 
 .Contact__skill-levels {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	width: 75%;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.Contact__skill-levels > * {
+	margin: 0.2rem 0.3rem;
 }
 
 .Contact__info {
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 2rem;
+	font-size: 2.4rem;
 }
 
 .Contact__info > * {
-	width: 100%;
-}
-
-.Contact__icon {
-	font-size: 2.5rem;
-	text-align: center;
+	margin: 0.2rem 0.3rem;
 }
 
 .Contact__icon-link {
+	text-decoration: none;
 	color: inherit;
-	text-decoration: none !important;
-}
-
-.Contact__icon-link:hover {
-	color: #787878;
-}
-
-hr {
-	width: 75% !important;
-	margin: 1rem auto;
-	background: #f4f4f4;
 }
