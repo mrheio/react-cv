@@ -1,9 +1,9 @@
 import React from 'react';
 import { InfoBox } from '../../common/InfoBox/InfoBox.jsx';
 import './Portfolio.scss';
-import meds from '../../../res/images/meds.png';
-import ieftinache from '../../../res/images/ieftinache.png';
-import ezcolet from '../../../res/images/ezcolet.png';
+import meds from '../../../res/images/meds.svg';
+import ieftinache from '../../../res/images/ieftinache.svg';
+import ezcolet from '../../../res/images/ezcolet.svg';
 
 export const Portfolio = () => {
 	return (

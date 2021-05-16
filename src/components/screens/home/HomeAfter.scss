@@ -4,32 +4,26 @@ body {
 
 .HomeAfter {
 	padding: 1.5rem;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-content: center;
 	align-items: center;
-	background: #181818;
-	overflow: auto;
 }
 
 .HomeAfter__text {
-	color: #f4f4f4;
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
-	margin-top: 1rem;
+	margin: 1rem;
 }
 
 .HomeAfter__flex-container {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	width: 1200px;
 	height: 800px;
 	gap: 1rem;
-	padding: 1rem;
 }
 
 .HomeAfter__flex-container-image {
@@ -41,7 +35,7 @@ body {
 .HomeAfter__flex-container-item {
 	display: flex;
 	flex-direction: column;
-	gap: 1.1rem;
+	gap: 1.2rem;
 }
 
 .HomeAfter__flex-container-item div:nth-child(2) {

@@ -4,9 +4,9 @@ import './InfoBox.scss';
 export const InfoBox = (props) => {
 	return (
 		<div className='InfoBox'>
-			<div>
+			<div className='InfoBox__image'>
 				<a href={props.link} target='_blank'>
-					<img className='InfoBox__image' src={props.src} alt='' />
+					<img src={props.src} alt='' />
 				</a>
 			</div>
 			<div>

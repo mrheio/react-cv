@@ -1,5 +1,4 @@
 .TextRectangle {
-	display: inline-block;
 	font-size: 1.7rem;
 	font-weight: bold;
 	width: 400px;
@@ -10,7 +9,7 @@
 
 .TextRectangle--leftSideTriangle {
 	clip-path: polygon(10% 0, 100% 0, 100% 50%, 100% 100%, 10% 100%, 0% 50%);
-	padding-left: 2.5rem;
+	padding-left: 3rem;
 	width: 500px;
 }
 

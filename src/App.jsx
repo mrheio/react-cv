@@ -7,10 +7,11 @@ import { Contact } from './components/screens/contact/Contact.jsx';
 
 export const App = () => {
 	return (
-		<div className='container'>
+		<React.StrictMode>
+			{/* <HomeBefore></HomeBefore> */}
 			<HomeAfter></HomeAfter>
 			<Portfolio></Portfolio>
 			<Contact></Contact>
-		</div>
+		</React.StrictMode>
 	);
 };
