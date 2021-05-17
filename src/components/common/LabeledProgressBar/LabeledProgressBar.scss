@@ -1,7 +1,7 @@
 .progress {
-	background: #383838;
+	background: var(--color-primary-light);
 }
 
 .progress-bar {
-	background-color: #f4f4f4;
+	background-color: var(--color-secondary);
 }

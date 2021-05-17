@@ -8,10 +8,38 @@
 	justify-content: center;
 }
 
+.Contact__skill-levels > * {
+	margin: var(--s-size);
+}
+
 .Contact__info {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.Contact {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Contact > * {
+		height: 100%;
+	}
+
+	.Contact__skill-levels {
+		margin: 0 auto;
+		max-width: 1200px;
+		width: 90%;
+	}
+
+	.Contact__info {
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
 }

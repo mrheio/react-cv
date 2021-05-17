@@ -9,9 +9,9 @@ export const InfoBox = (props) => {
 					<img src={props.src} alt='' />
 				</a>
 			</div>
-			<div className='InfoBox__text-container'>
+			<div className='InfoBox__text-container l-margin'>
 				<div>
-					<h1>{props.title}</h1>
+					<h1>{props.name}</h1>
 				</div>
 				<div>
 					<span>{props.about}</span>

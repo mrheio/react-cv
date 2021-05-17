@@ -1,3 +1,17 @@
 .Portfolio > * {
 	height: 100vh;
 }
+
+@media only screen and (min-width: 768px) {
+	.Portfolio {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Portfolio > * {
+		width: 100%;
+		max-height: 500px;
+	}
+}

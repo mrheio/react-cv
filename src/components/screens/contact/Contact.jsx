@@ -66,7 +66,7 @@ const ContactsItem = (props) => {
 
 export const Contact = () => {
 	return (
-		<div className='Contact padded-container'>
+		<div className='Contact'>
 			<div className='Contact__skill-levels'>
 				<h1>Skills</h1>
 				<Skills category='Programming' skills={programmingSkills} />

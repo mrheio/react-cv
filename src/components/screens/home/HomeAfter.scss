@@ -7,6 +7,7 @@
 }
 
 .HomeAfter__welcome-container {
+	font-size: var(--font-m-size) !important;
 	text-align: center;
 	font-family: Hacked;
 }
@@ -15,6 +16,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border: 1px solid cyan;
 }
 
 .HomeAfter__image {
@@ -27,4 +29,15 @@
 .HomeAfter__data-container {
 	display: flex;
 	flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+	.HomeAfter__info-container {
+		flex-direction: row;
+		margin: var(--m-size);
+	}
+
+	.HomeAfter__image {
+		max-width: 350px;
+	}
 }
