@@ -1,0 +1,45 @@
+:root {
+	--xs-size: 0.1em;
+	--s-size: 0.5rem;
+	--m-size: 1em;
+	--l-size: 2em;
+
+	--font-xs-size: 1rem;
+	--font-s-size: 1.5rem;
+	--font-m-size: 2.5rem;
+	--font-l-size: 3rem;
+
+	--width-helper: 200px;
+}
+
+.xs-padded {
+	padding: var(--xs-size);
+}
+
+.s-padded {
+	padding: var(--s-size);
+}
+
+.m-padded {
+	padding: var(--m-size);
+}
+
+.l-padded {
+	padding: var(--l-size);
+}
+
+.xs-margin {
+	margin: var(--xs-size);
+}
+
+.s-margin {
+	margin: var(--s-size);
+}
+
+.m-margin {
+	margin: var(--m-size);
+}
+
+.l-margin {
+	margin: var(--l-size);
+}

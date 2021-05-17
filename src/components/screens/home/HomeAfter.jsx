@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../../../res/images/profile-pic.png';
+import profile from '../../../res/images/profile.png';
 import './HomeAfter.scss';
 import { TextRectangle } from '../../common/TextRectangle/TextRectangle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,7 +7,7 @@ import { faInfinity } from '@fortawesome/free-solid-svg-icons';
 
 export const HomeAfter = () => {
 	return (
-		<div className='HomeAfter padded-container'>
+		<div className='HomeAfter'>
 			<div className='HomeAfter__welcome-container'>
 				<h1>
 					Enough talk!
@@ -16,7 +16,7 @@ export const HomeAfter = () => {
 				</h1>
 			</div>
 			<div className='HomeAfter__info-container'>
-				<img className='HomeAfter__image' src={profile} alt='' />
+				<img className='HomeAfter__image s-margin' src={profile} alt='' />
 				<div className='HomeAfter__data-container'>
 					<TextRectangle theme={'light'}>Nume, Prenume</TextRectangle>
 					<TextRectangle theme={'light'} hasLeftSideTriangle={true}>

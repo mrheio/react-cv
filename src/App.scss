@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import '~bootstrap/scss/bootstrap';
+@import './res/scss/global.scss';
 @font-face {
 	font-family: Hacked;
 	src: url(https://hackedfont.com/HACKED.ttf);
@@ -19,16 +20,16 @@ body {
 	cursor: default;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	padding: 0;
-	margin: 0;
+#root {
+	padding: var(--s-size);
 }
 
-.padded-container {
-	padding: 0.2rem;
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
 }

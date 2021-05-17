@@ -12,6 +12,14 @@ class Skill {
 	}
 }
 
+class ContactMedia {
+	constructor(link, icon, name) {
+		this.link = link;
+		this.icon = icon;
+		this.name = name;
+	}
+}
+
 const programmingSkills = [
 	new Skill('Java', 50),
 	new Skill('Kotlin', 45),
@@ -35,6 +43,27 @@ const Skills = (props) => {
 	);
 };
 
+const contacts = [
+	new ContactMedia('https://github.com/DrgOv', faGithub, 'GitHub'),
+	new ContactMedia('#', faEnvelope, 'email@email.com')
+];
+
+const ContactsItem = (props) => {
+	return props.contacts.map((contact) => {
+		const { link, icon, name } = contact;
+		return (
+			<div className='ContactItem m-margin'>
+				<h1>
+					<a className='ContactItem__link' href={link} target='__blank' rel='noreferrer'>
+						<FontAwesomeIcon icon={icon} />
+					</a>
+				</h1>
+				<h2>{name}</h2>
+			</div>
+		);
+	});
+};
+
 export const Contact = () => {
 	return (
 		<div className='Contact padded-container'>
@@ -44,15 +73,7 @@ export const Contact = () => {
 				<Skills category='Graphic Design' skills={designSkills} />
 			</div>
 			<div className='Contact__info'>
-				<div className='Contact__icon'>
-					<a className='Contact__icon-link' href='https://github.com/DrgOv' target='__blank'>
-						<FontAwesomeIcon icon={faGithub} />
-					</a>{' '}
-					<br></br> Github
-				</div>
-				<div className='Contact__icon'>
-					<FontAwesomeIcon icon={faEnvelope} /> <br></br> email@gmail.com
-				</div>
+				<ContactsItem contacts={contacts} />
 			</div>
 		</div>
 	);

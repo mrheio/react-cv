@@ -4,23 +4,11 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	gap: 10vh;
 }
 
-.InfoBox__image-container img {
-	width: 180px;
-	height: 180px;
-}
-
-.InfoBox__text-container {
-	font-size: 1.2rem;
-}
-
-.InfoBox__text-container h1 {
-	font-size: 3rem;
-}
-
-.InfoBox__technologies {
-	font-weight: bold;
-	font-size: 1.1rem;
+.InfoBox__image-container {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
