@@ -8,17 +8,18 @@ import { faInfinity } from '@fortawesome/free-solid-svg-icons';
 export const HomeAfter = () => {
 	return (
 		<div className='HomeAfter'>
-			<div className='HomeAfter__welcome-container'>
-				<h1>
-					Enough talk!
-					<br />
-					Private information
-				</h1>
+			<div className='HomeAfter__welcome-container text-center'>
+				<h1>Enough talk! </h1>
+				<h1>Private information</h1>
 			</div>
-			<div className='HomeAfter__info-container'>
-				<img className='HomeAfter__image s-margin' src={profile} alt='' />
+			<div className='HomeAfter__profile'>
+				<div className='HomeAfter__image'>
+					<img src={profile} alt='' />
+				</div>
 				<div className='HomeAfter__data-container'>
-					<TextRectangle theme={'light'}>Nume, Prenume</TextRectangle>
+					<TextRectangle theme={'light'} text=''>
+						Nume, Prenume
+					</TextRectangle>
 					<TextRectangle theme={'light'} hasLeftSideTriangle={true}>
 						battling with procrastination
 					</TextRectangle>

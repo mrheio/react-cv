@@ -52,12 +52,12 @@ const ContactsItem = (props) => {
 	return props.contacts.map((contact) => {
 		const { link, icon, name } = contact;
 		return (
-			<div className='ContactItem m-margin'>
-				<h1>
-					<a className='ContactItem__link' href={link} target='__blank' rel='noreferrer'>
+			<div className='ContactItem text-center'>
+				<div>
+					<a className='ContactItem__icon' href={link} target='__blank' rel='noreferrer'>
 						<FontAwesomeIcon icon={icon} />
 					</a>
-				</h1>
+				</div>
 				<h2>{name}</h2>
 			</div>
 		);
@@ -67,9 +67,10 @@ const ContactsItem = (props) => {
 export const Contact = () => {
 	return (
 		<div className='Contact'>
-			<div className='Contact__skill-levels'>
+			<div className='Contact__skills text-center'>
 				<h1>Skills</h1>
 				<Skills category='Programming' skills={programmingSkills} />
+				<hr />
 				<Skills category='Graphic Design' skills={designSkills} />
 			</div>
 			<div className='Contact__info'>

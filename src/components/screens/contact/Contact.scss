@@ -1,45 +1,40 @@
-.Contact > * {
+.Contact {
 	height: 100vh;
-}
-
-.Contact__skill-levels {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.Contact__skill-levels > * {
-	margin: var(--s-size);
+.Contact > * {
+	width: 100%;
 }
 
-.Contact__info {
+.Contact__skills {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	text-align: center;
+	margin-inline: auto;
+	padding-bottom: var(--m-size);
 }
 
-@media only screen and (min-width: 768px) {
-	.Contact {
-		height: 100vh;
-		display: flex;
-		flex-direction: column;
-	}
+.ContactItem__icon {
+	font-size: var(--font-m-size);
+	margin: auto;
+}
 
-	.Contact > * {
-		height: 100%;
-	}
-
-	.Contact__skill-levels {
-		margin: 0 auto;
-		max-width: 1200px;
-		width: 90%;
-	}
-
+@media (min-width: 45em) {
 	.Contact__info {
-		flex-direction: row;
+		display: flex;
 		justify-content: center;
-		align-items: flex-start;
+		margin-inline: auto;
+		width: 70%;
+	}
+
+	.Contact__info > * {
+		width: 100%;
+	}
+
+	.ContactItem {
+		margin-inline: auto;
 	}
 }

@@ -5,3 +5,13 @@
 .progress-bar {
 	background-color: var(--color-secondary);
 }
+
+.LabeledProgressBar {
+	width: unquote('min(90%, 60em)');
+	margin-inline: auto;
+}
+
+.LabeledProgressBar h5 {
+	padding: 0;
+	margin: 0;
+}
