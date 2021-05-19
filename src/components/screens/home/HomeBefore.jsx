@@ -1,10 +1,9 @@
 import React from 'react';
+import { GlitchedText } from '../../common/GlitchedText/GlitchedText.jsx';
 import './HomeBefore.scss';
 
-export const HomeBefore = () => {
-	return (
-		<div className='HomeBefore'>
-			<div className='HomeBefore__welcome-text'>
+{
+	/* <div className='HomeBefore__welcome-text'>
 				<h1>
 					<span className='HomeBefore__welcome-text--red-orange-text'>Hi</span>,{' '}
 					<span className='HomeBefore__welcome-text--purple-text'>I'm</span>{' '}
@@ -23,7 +22,13 @@ export const HomeBefore = () => {
 						difference
 					</h4>
 				</div>
-			</div>
+			</div> */
+}
+
+export const HomeBefore = () => {
+	return (
+		<div className='HomeBefore'>
+			<GlitchedText text='Glitched text' />
 		</div>
 	);
 };

@@ -2,6 +2,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { GlitchedText } from '../../common/GlitchedText/GlitchedText.jsx';
 import { LabeledProgressBar } from '../../common/LabeledProgressBar/LabeledProgressBar.jsx';
 import './Contact.scss';
 
@@ -68,7 +69,7 @@ export const Contact = () => {
 	return (
 		<div className='Contact'>
 			<div className='Contact__skills text-center'>
-				<h1>Skills</h1>
+				<GlitchedText text='Skills' />
 				<Skills category='Programming' skills={programmingSkills} />
 				<hr />
 				<Skills category='Graphic Design' skills={designSkills} />

@@ -1,13 +1,16 @@
 @import './colors.scss';
 @import './sizes.scss';
+@import './animations.scss';
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import '~bootstrap/scss/bootstrap';
 @font-face {
 	font-family: Hacked;
 	src: url(https://hackedfont.com/HACKED.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 :root {
 	--ff-primary: Helvetica, 'Work Sans', Arial, sans-serif;
 	--ff-accent: Hacked;
+	--ff-before: 'Permanent Marker', cursive;
 }

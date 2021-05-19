@@ -4,14 +4,13 @@ import './HomeAfter.scss';
 import { TextRectangle } from '../../common/TextRectangle/TextRectangle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfinity } from '@fortawesome/free-solid-svg-icons';
+import { GlitchedText } from '../../common/GlitchedText/GlitchedText.jsx';
 
 export const HomeAfter = () => {
 	return (
 		<div className='HomeAfter'>
-			<div className='HomeAfter__welcome-container text-center'>
-				<h1>Enough talk! </h1>
-				<h1>Private information</h1>
-			</div>
+			<GlitchedText text='Site security breached' />
+			<GlitchedText text='Private information' />
 			<div className='HomeAfter__profile'>
 				<div className='HomeAfter__image'>
 					<img src={profile} alt='' />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { GlitchedText } from '../GlitchedText/GlitchedText.jsx';
 import './InfoBox.scss';
 
 export const InfoBox = (props) => {
@@ -10,7 +11,7 @@ export const InfoBox = (props) => {
 				</a>
 			</div>
 			<div className='InfoBox__text-container l-margin text-center'>
-				<h1>{props.name}</h1>
+				<GlitchedText text={props.name} />
 				<div>
 					<h5>{props.about}</h5>
 					<h3 className='InfoBox__technologies'>{props.technologies}</h3>
