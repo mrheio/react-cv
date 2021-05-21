@@ -2,18 +2,15 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-}
-
-.InfoBox > * {
-	height: 100%;
 }
 
 .InfoBox__image-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	width: 50%;
+	margin-inline: auto;
+}
+
+.InfoBox__text-container {
+	margin-inline: auto;
 }
 
 @media (min-width: 60em) {

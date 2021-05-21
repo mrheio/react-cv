@@ -4,7 +4,7 @@ import './HomeAfter.scss';
 import { TextRectangle } from '../../common/TextRectangle/TextRectangle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfinity } from '@fortawesome/free-solid-svg-icons';
-import { GlitchedText } from '../../common/GlitchedText/GlitchedText.jsx';
+import { GlitchedText } from '../../common/Glitch/GlitchedText.jsx';
 
 export const HomeAfter = () => {
 	return (

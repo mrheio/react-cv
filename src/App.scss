@@ -11,8 +11,8 @@
 html,
 body {
 	font-family: var(--ff-primary);
-	background: #181818;
-	color: #f4f4f4;
+	background: var(--color-primary);
+	color: var(--color-secondary);
 	cursor: default;
 }
 

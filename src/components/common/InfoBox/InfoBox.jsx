@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlitchedText } from '../GlitchedText/GlitchedText.jsx';
+import { GlitchedText } from '../Glitch/GlitchedText.jsx';
 import './InfoBox.scss';
 
 export const InfoBox = (props) => {
