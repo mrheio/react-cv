@@ -9,6 +9,14 @@
 	margin-inline: auto;
 }
 
+.InfoBox__image-container img {
+	transition: 0.3s;
+}
+
+.InfoBox__image-container img:hover {
+	transform: scale(1.05);
+}
+
 .InfoBox__text-container {
 	margin-inline: auto;
 }

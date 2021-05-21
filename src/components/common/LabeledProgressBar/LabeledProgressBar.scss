@@ -9,6 +9,11 @@
 .LabeledProgressBar {
 	width: unquote('min(90%, 60em)');
 	margin-inline: auto;
+	transition: 1s;
+}
+
+.LabeledProgressBar:hover {
+	transform: scale(1.02);
 }
 
 .LabeledProgressBar h5 {

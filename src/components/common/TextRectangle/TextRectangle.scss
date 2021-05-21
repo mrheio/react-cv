@@ -1,6 +1,14 @@
 .TextRectangle {
 	text-align: center;
 	margin-inline: auto;
+	transition: 0.3s;
+	opacity: 0.95;
+}
+
+.TextRectangle:hover {
+	transform: scale(1.01);
+	opacity: 1;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .TextRectangle--leftSideTriangle {
