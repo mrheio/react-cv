@@ -7,14 +7,16 @@ import { LabeledProgressBar } from '../../common/LabeledProgressBar/LabeledProgr
 import './Contact.scss';
 
 class Skill {
-	constructor(name, value) {
+	constructor(key, name, value) {
+		this.key = key;
 		this.name = name;
 		this.value = value;
 	}
 }
 
 class ContactMedia {
-	constructor(link, icon, name) {
+	constructor(key, link, icon, name) {
+		this.key = key;
 		this.link = link;
 		this.icon = icon;
 		this.name = name;
@@ -22,15 +24,15 @@ class ContactMedia {
 }
 
 const programmingSkills = [
-	new Skill('Java', 50),
-	new Skill('Kotlin', 45),
-	new Skill('HTML', 35),
-	new Skill('CSS', 35),
-	new Skill('JavaScript', 40),
-	new Skill('React', 100)
+	new Skill(1, 'Java', 50),
+	new Skill(2, 'Kotlin', 45),
+	new Skill(3, 'HTML', 35),
+	new Skill(4, 'CSS', 35),
+	new Skill(5, 'JavaScript', 40),
+	new Skill(6, 'React', 100)
 ];
 
-const designSkills = [new Skill('Illustrator', 45), new Skill('PhotoShop', 40)];
+const designSkills = [new Skill(1, 'Illustrator', 45), new Skill(2, 'PhotoShop', 40)];
 
 const Skills = (props) => {
 	return (
@@ -45,8 +47,8 @@ const Skills = (props) => {
 };
 
 const contacts = [
-	new ContactMedia('https://github.com/DrgOv', faGithub, 'GitHub'),
-	new ContactMedia('#', faEnvelope, 'email@email.com')
+	new ContactMedia(1, 'https://github.com/DrgOv', faGithub, 'GitHub'),
+	new ContactMedia(2, '#', faEnvelope, 'email@email.com')
 ];
 
 const ContactsItem = (props) => {
