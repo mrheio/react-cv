@@ -1,6 +1,6 @@
-export class Audio {
+export default class MediaUtils {
 	static fadeTimer = 0;
-	static audioPlay = (audio) => {
+	static audioPlayFadeIn = (audio) => {
 		clearTimeout(this.fadeTimer);
 		audio.volume = 0;
 		audio.currentTime = 0;
