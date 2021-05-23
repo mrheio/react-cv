@@ -5,7 +5,6 @@ import './GlitchedImage.scss';
 
 let glitch;
 let isLoaded = false;
-let img;
 
 export const GlitchedImage = (props) => {
 	const setup = (p5, canvasParentRef) => {

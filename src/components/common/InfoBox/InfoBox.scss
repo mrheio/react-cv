@@ -5,12 +5,13 @@
 }
 
 .InfoBox__image-container {
-	width: 50%;
-	margin-inline: auto;
+	display: flex;
+	justify-content: center;
 }
 
 .InfoBox__image-container img {
 	transition: 0.3s;
+	width: 100%;
 }
 
 .InfoBox__image-container img:hover {

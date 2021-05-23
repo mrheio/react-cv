@@ -103,7 +103,7 @@ export default class Glitch {
 			if (y > rangeMin && y < rangeMax) {
 				for (let x = 0; x < srcImg.width; x++) {
 					let r, g, b, a;
-					let r2, g2, b2, a2;
+					let r2, g2, b2;
 					let index;
 
 					index = (y * srcImg.width + x) * this.channelLen;
@@ -147,7 +147,7 @@ export default class Glitch {
 		for (let y = 0; y < srcImg.height; y++) {
 			for (let x = 0; x < srcImg.width; x++) {
 				let r, g, b, a;
-				let r2, g2, b2, a2;
+				let r2, g2, b2;
 				let index;
 
 				index = (y * srcImg.width + x) * this.channelLen;

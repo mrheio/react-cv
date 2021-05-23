@@ -13,8 +13,8 @@ export const InfoBox = (props) => {
 			<div className='InfoBox__text-container l-margin text-center'>
 				<GlitchedText text={props.name} />
 				<div>
-					<h5>{props.about}</h5>
-					<h3 className='InfoBox__technologies'>{props.technologies}</h3>
+					<h3>{props.about}</h3>
+					<h4 className='InfoBox__technologies'>{props.technologies}</h4>
 				</div>
 			</div>
 		</div>

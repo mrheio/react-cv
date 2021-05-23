@@ -12,5 +12,5 @@ class ContactMedia {
 
 export const contacts = [
 	new ContactMedia(1, 'https://github.com/DrgOv', faGithub, 'GitHub'),
-	new ContactMedia(2, '#', faEnvelope, 'email@email.com')
+	new ContactMedia(2, 'mailto:drg.ov00@gmail.com', faEnvelope, 'email@email.com')
 ];
