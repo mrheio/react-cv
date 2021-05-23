@@ -4,6 +4,12 @@
 
 .progress {
 	background-color: var(--color-primary-focus);
+	opacity: 0.85;
+	transition: 0.3s;
+}
+
+.progress:hover {
+	opacity: 1;
 }
 
 .LabeledProgressBar {

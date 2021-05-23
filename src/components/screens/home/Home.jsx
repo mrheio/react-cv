@@ -15,16 +15,16 @@ export const Home = () => {
 				<img src={profile} alt='' />
 				<div className='Home__info'>
 					<TextRectangle theme={'light'} text=''>
-						Nume, Prenume
+						Dragoi, Ovidiu
 					</TextRectangle>
-					<TextRectangle theme={'light'} hasLeftSideTriangle={true}>
-						battling with procrastination
+					<TextRectangle theme={'accent'} hasLeftSideTriangle={true}>
+						wannabe designer
 					</TextRectangle>
 					<TextRectangle>Age: unknown</TextRectangle>
 					<TextRectangle>
 						Income: - <FontAwesomeIcon icon={faInfinity} />
 					</TextRectangle>
-					<TextRectangle>Unemployed</TextRectangle>
+					<TextRectangle>Occupation: unemployed</TextRectangle>
 				</div>
 			</div>
 		</div>

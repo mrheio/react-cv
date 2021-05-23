@@ -5,11 +5,13 @@
 	max-width: 425px;
 	margin: 0.15em auto;
 	transition: 0.3s;
+	opacity: 0.85;
 }
 
 .TextRectangle:hover {
 	transform: scale(1.02);
 	box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+	opacity: 1;
 }
 
 .TextRectangle--light {
@@ -20,6 +22,16 @@
 .TextRectangle--dark {
 	background: black;
 	color: white;
+}
+
+.TextRectangle--accent {
+	background: var(--color-accent);
+	color: black;
+	opacity: 0.5;
+}
+
+.TextRectangle--accent:hover {
+	opacity: 1;
 }
 
 @media (min-width: 1024px) {

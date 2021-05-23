@@ -8,7 +8,7 @@ export const App = () => {
 	const handleScreenChange = () => {
 		Promise.resolve()
 			.then(() => setComponent(null))
-			.then(() => UIUtils.delay(2500))
+			.then(() => UIUtils.delay(2000))
 			.then(() => setComponent(<Main />));
 	};
 	const [component, setComponent] = useState(<Before onScreenChange={handleScreenChange} />);

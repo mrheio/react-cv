@@ -9,7 +9,7 @@ export default class MediaUtils {
 	};
 	static audioFadeIn = (audio) => {
 		clearTimeout(this.fadeTimer);
-		if (audio.volume < 0.01) {
+		if (audio.volume < 0.1) {
 			audio.volume = audio.volume + 0.0001;
 			this.fadeTimer = setTimeout(() => this.audioFadeIn(audio), 500);
 		}

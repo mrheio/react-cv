@@ -2,7 +2,12 @@ import React from 'react';
 import './TextRectangle.scss';
 
 export const TextRectangle = (props) => {
-	const theme = props.theme === 'light' ? 'TextRectangle--light' : 'TextRectangle--dark';
+	const theme =
+		props.theme === 'light'
+			? 'TextRectangle--light'
+			: props.theme === 'accent'
+			? 'TextRectangle--accent'
+			: 'TextRectangle--dark';
 	const leftSideTriangle = props.hasLeftSideTriangle ? 'TextRectangle--leftSideTriangle' : '';
 	const textRectangleClasses = `TextRectangle ${theme} ${leftSideTriangle}`;
 	return (

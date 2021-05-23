@@ -18,3 +18,8 @@
 .InfoBox img:hover {
 	transform: scale(1.02);
 }
+
+.InfoBox__technologies {
+	color: var(--color-accent);
+	opacity: 0.75;
+}
