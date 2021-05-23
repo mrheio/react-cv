@@ -1,16 +1,26 @@
 @import './colors.scss';
 @import './sizes.scss';
 @import './animations.scss';
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @font-face {
 	font-family: Hacked;
 	src: url(https://hackedfont.com/HACKED.ttf);
 }
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@font-face {
+	font-family: Artsy;
+	src: url('../fonts/Artsy.ttf');
+}
+@font-face {
+	font-family: 'Cascadia Mono';
+	src: url('../fonts/CascadiaMono-Regular.otf');
+}
 
 :root {
 	--ff-primary: Helvetica, 'Work Sans', Arial, sans-serif;
 	--ff-accent: Hacked;
 	--ff-before: 'Permanent Marker', cursive;
+	--ff-design: Artsy;
+	--ff-code: 'Cascadia Mono';
 }
