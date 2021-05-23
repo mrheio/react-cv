@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Before.scss';
-import { GlitchedImage } from '../../common/Glitch/img-glitch-p5/GlitchedImage.jsx';
+import { GlitchImage } from '../../common/Glitch/GlitchImage/GlitchImage';
 import bg from '../../../res/images/bg-before.png';
 import UIUtils from './../../../utils/UIUtils';
 
@@ -10,7 +10,7 @@ export const Before = (props) => {
 		// used to change screen
 	};
 	const onEffectChange = () => {
-		setComponent(<GlitchedImage imgSrc={bg} />);
+		setComponent(<GlitchImage imgSrc={bg} />);
 	};
 	useEffect(() => {
 		Promise.resolve()

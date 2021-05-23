@@ -1,8 +1,20 @@
 class Skill {
-	constructor(key, name, value) {
+	constructor(key, name, value, level) {
 		this.key = key;
 		this.name = name;
 		this.value = value;
+		if (value < 40) {
+			this.level = 'newbie';
+		}
+		if (value >= 40 && value <= 75) {
+			this.level = 'intermediate';
+		}
+		if (value > 75) {
+			this.level = 'experienced';
+		}
+		if (name === 'React') {
+			this.level = 'God';
+		}
 	}
 }
 

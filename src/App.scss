@@ -15,41 +15,23 @@ body {
 	font-family: var(--ff-primary);
 	background: var(--color-primary);
 	color: var(--color-secondary);
-	cursor: default;
 }
 
-// text style
-
-h1 {
-	font-family: var(--ff-accent);
-	font-size: 2.4rem !important;
-}
-
-@media (min-width: 45em) {
-	h1 {
-		font-size: 6rem !important;
-	}
-}
+// typography
 
 a {
-	text-decoration: none;
 	color: inherit;
+	text-decoration: none;
 }
 
 a:hover {
+	color: var(--color-accent);
 	text-decoration: none;
-	color: inherit;
 }
 
-// elements style
+// layout
 
 img {
 	display: block;
 	max-width: 100%;
-}
-
-hr {
-	background: var(--color-secondary);
-	width: unquote('min(95%, 65em)');
-	margin-inline: auto;
 }

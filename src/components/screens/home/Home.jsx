@@ -4,18 +4,16 @@ import './Home.scss';
 import { TextRectangle } from '../../common/TextRectangle/TextRectangle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfinity } from '@fortawesome/free-solid-svg-icons';
-import { GlitchedText } from '../../common/Glitch/GlitchedText.jsx';
+import { GlitchText } from '../../common/Glitch/GlitchText/GlitchText';
 
 export const Home = () => {
 	return (
 		<div className='Home'>
-			<GlitchedText text='Site security breached' />
-			<GlitchedText text='Private information' />
+			<GlitchText text='Site security breached' />
+			<GlitchText text='Private information' />
 			<div className='Home__profile'>
-				<div className='Home__image'>
-					<img src={profile} alt='' />
-				</div>
-				<div className='Home__data-container'>
+				<img src={profile} alt='' />
+				<div className='Home__info'>
 					<TextRectangle theme={'light'} text=''>
 						Nume, Prenume
 					</TextRectangle>

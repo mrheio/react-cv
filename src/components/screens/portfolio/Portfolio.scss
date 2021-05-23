@@ -1,14 +1,13 @@
-.Portfolio > * {
-	height: 100vh;
+.Portfolio {
+	margin-top: 3em;
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 980px) {
 	.Portfolio {
-		height: 100vh;
-		display: flex;
-	}
-
-	.Portfolio > * {
-		width: 100%;
+		flex-direction: row;
+		margin: 10em 0;
 	}
 }

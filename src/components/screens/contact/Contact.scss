@@ -1,40 +1,22 @@
 .Contact {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	width: 95%;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 3em;
 }
 
-.Contact > * {
-	width: 100%;
-}
-
-.Contact__skills {
+.Contact__media {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-inline: auto;
-	padding-bottom: var(--m-size);
+	justify-content: space-around;
+	text-align: center;
 }
 
 .ContactItem__icon {
-	font-size: var(--font-m-size);
-	margin: auto;
+	font-size: 3rem;
 }
 
-@media (min-width: 45em) {
-	.Contact__info {
-		display: flex;
-		justify-content: center;
-		margin-inline: auto;
-		width: 70%;
-	}
-
-	.Contact__info > * {
-		width: 100%;
-	}
-
-	.ContactItem {
-		margin-inline: auto;
-	}
+.Contact__footer {
+	margin-top: 1em;
+	text-align: center;
+	color: var(--color-primary-light);
 }

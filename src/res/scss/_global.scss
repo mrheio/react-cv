@@ -1,5 +1,4 @@
 @import './colors.scss';
-@import './sizes.scss';
 @import './animations.scss';
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
@@ -18,11 +17,8 @@
 }
 
 :root {
-	--ff-primary: Helvetica, 'Work Sans', Arial, sans-serif;
+	--ff-primary: Helvetica, Arial, sans-serif;
 	--ff-accent: Hacked;
-	--ff-before: 'Permanent Marker', cursive;
-	--ff-design: Artsy;
-	--ff-code: 'Cascadia Mono';
 }
 
 .text-center {

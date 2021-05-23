@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlitchedText } from '../Glitch/GlitchedText.jsx';
+import { GlitchText } from '../Glitch/GlitchText/GlitchText';
 import './InfoBox.scss';
 
 export const InfoBox = (props) => {
@@ -10,12 +10,10 @@ export const InfoBox = (props) => {
 					<img src={props.src} alt='' />
 				</a>
 			</div>
-			<div className='InfoBox__text-container l-margin text-center'>
-				<GlitchedText text={props.name} />
-				<div>
-					<h3>{props.about}</h3>
-					<h4 className='InfoBox__technologies'>{props.technologies}</h4>
-				</div>
+			<div className='InfoBox__text-container'>
+				<GlitchText text={props.name} />
+				<h3>{props.about}</h3>
+				<h4 className='InfoBox__technologies'>{props.technologies}</h4>
 			</div>
 		</div>
 	);
