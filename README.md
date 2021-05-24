@@ -1,3 +1,11 @@
+# Credits
+
+## fullPage.js
+### Official site: https://alvarotrigo.com/fullPage/
+### GitHub: https://github.com/alvarotrigo/react-fullpage
+
+## Music used: https://www.youtube.com/watch?v=J_6HIlpkDCI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
