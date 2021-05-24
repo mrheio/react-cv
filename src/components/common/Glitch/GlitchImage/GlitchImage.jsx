@@ -3,6 +3,7 @@ import Sketch from 'react-p5';
 import Glitch from './Glitch';
 import './GlitchImage.scss';
 
+let image;
 let glitch;
 let isLoaded = false;
 
@@ -12,10 +13,13 @@ export const GlitchImage = (props) => {
 		const width = canvasDiv.offsetWidth;
 		const height = canvasDiv.offsetHeight;
 		p5.createCanvas(width, height).parent(canvasParentRef);
-		p5.loadImage(props.imgSrc, (image) => {
+		image = p5.loadImage(props.imgSrc, (image) => {
 			image.resize(width, height);
-			glitch = new Glitch(p5, image);
-			isLoaded = true;
+			p5.image(image, 0, 0);
+			setTimeout(() => {
+				glitch = new Glitch(p5, image);
+				isLoaded = true;
+			}, 1000);
 		});
 	};
 
@@ -24,6 +28,8 @@ export const GlitchImage = (props) => {
 
 		if (isLoaded) {
 			glitch.show();
+		} else {
+			p5.image(image, 0, 0);
 		}
 	};
 
