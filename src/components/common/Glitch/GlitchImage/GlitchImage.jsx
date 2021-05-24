@@ -13,6 +13,7 @@ export const GlitchImage = (props) => {
 		const height = canvasDiv.offsetHeight;
 		p5.createCanvas(width, height).parent(canvasParentRef);
 		p5.loadImage(props.imgSrc, (image) => {
+			image.resize(width, height);
 			glitch = new Glitch(p5, image);
 			isLoaded = true;
 		});
