@@ -17,9 +17,7 @@ export const Home = () => {
 					<TextRectangle theme={'light'} text=''>
 						Dragoi, Ovidiu
 					</TextRectangle>
-					<TextRectangle theme={'accent'} hasLeftSideTriangle={true}>
-						wannabe designer
-					</TextRectangle>
+					<TextRectangle theme={'accent'}>wannabe designer</TextRectangle>
 					<TextRectangle>Age: unknown</TextRectangle>
 					<TextRectangle>
 						Income: - <FontAwesomeIcon icon={faInfinity} />
